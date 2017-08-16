@@ -27,8 +27,6 @@ module.exports = (ctx) => ({
         'Opera >= 30'
       ]
     },
-    'css-mqpacker': {
-      // empty options
-    }
+    'css-mqpacker': ctx.file.basename.endsWith('.min.css') ? {} : false
   }
 })

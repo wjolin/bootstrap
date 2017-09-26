@@ -16,15 +16,14 @@ baseurl:        ""
 url:            "https://getbootstrap.com"
 encoding:       UTF-8
 exclude:
-  - .git
-  - .github
+  - .git/
+  - .github/
   - assets/scss/
-  - build
-  - js
-  - node_modules
-  - nuget
-  - scss
-  - vendor
+  - build/
+  - js/
+  - node_modules/
+  - nuget/
+  - scss/
   - bower.json
   - composer.json
   - Gemfile
@@ -34,6 +33,7 @@ exclude:
   - package.json
   - package-lock.json
   - sache.json
+  - twbsconfig.yml
 
 plugins:
   - jekyll-redirect-from
